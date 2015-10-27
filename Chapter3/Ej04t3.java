@@ -21,6 +21,6 @@ public class Ej04t3 {
   System.out.println(numero1 + numero2);
   System.out.println(numero1 - numero2);
   System.out.println(numero1 * numero2);
-  System.out.println((double)numero1 / (double)numero2);
+  System.out.println(numero1 / numero2);
   }
 }

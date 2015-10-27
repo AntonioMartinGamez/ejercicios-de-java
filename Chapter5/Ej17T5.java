@@ -16,7 +16,7 @@ public class Ej17T5 {
     System.out.println("El programa devolverá los 100 numeros siguientes al introducido");
     numero = Integer.parseInt(System.console().readLine());
     
-    if (numero <= 0) {
+    if (numero < 0) {
       System.out.println("El numero introducido no es positivo!");
     } else {
       

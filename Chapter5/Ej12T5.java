@@ -11,13 +11,13 @@ public class Ej12T5 {
     System.out.println("Por favor introduce un numero por teclado para elevar al cuadrado y al cubo ");
     System.out.println("El programa el programa calculará los cuatro numeros siguientes al introducido mas el mismo");
     
-    int n = 0;
+    long n = 0;
     int contador = 0;
-    int numero1 = (0);
-    int numero2 = (1);
-    int aux;
+    long numero1 = (0);
+    long numero2 = (1);
+    long aux;
     n = Integer.parseInt(System.console().readLine());
-    while (contador <= n ) {
+    while (contador < n ) {
       aux = numero1;
       numero1 = numero2;
       numero2 = numero1 + aux;

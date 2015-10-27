@@ -14,7 +14,6 @@ public class Ej13T5 {
     n = 0;
     while (n < 10  ) {
       numero = Double.parseDouble(System.console().readLine());
-      System.out.println(numero );
       if (numero >= 0) {
         System.out.println("El numero introducido es positivo \n");
       } else {

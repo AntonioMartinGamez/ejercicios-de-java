@@ -13,33 +13,31 @@
  */
 public class Ej16T5 {
   public static void main(String[] args) {
-    int numero = 0;
-    int contador = 1;
-    int resultado = 0;
-    int esPrimo = 0;
+    long numero = 0;
+    long contador = 2;
+    long resto = 0;
+    boolean esPrimo = true;
     System.out.println("Por favor introduce una numero");
-    numero = Integer.parseInt(System.console().readLine());
+    numero = Long.parseLong(System.console().readLine());
     
     
     while (contador < (numero/2)  ) {
-      resultado = numero/contador;
-      esPrimo = numero%contador;
+      resto = numero%contador;
       contador++;
-     
-/**     if esPrimo {
-        System.out.println("El numero introducido es primo");
-      } else {
-        System.out.println("El numero introducido no es primo");
-      
-   } */ 
     
-  } if (esPrimo == 0) {
-        System.out.println("El numero que has introducido es primo!");
-      } else {
-        System.out.println("El numero que has introducido no es primo!");
+    
+      if (resto == 0) {
+        esPrimo = false;
+      } 
+    } 
+    if (esPrimo == false){
+    System.out.println("El numero introducido no es primo :(");
+    } else {
+      System.out.println("El numero introducido es primo ");
+      }
+        
+     
+  }
 }
-}
-}
-
 
    
