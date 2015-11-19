@@ -7,7 +7,7 @@ total acumulado, el contador de los números introducidos y la media.
  */
 public class Ej23T5 {
   public static void main(String[] args) {
-    System.out.println("El programa calculará la media de los impares y el mas grande de los pares");   
+    System.out.println("El programa sumará todos los los numeros introducidos ");   
     System.out.println("Por favor introduce una lista de 10 numeros de uno en uno ");
     
     

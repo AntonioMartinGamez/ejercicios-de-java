@@ -31,7 +31,7 @@ public class Ej21T5 {
       //numero impar
       if (imparOpar ==1){
         contador_impar++;
-        aux = (numero + aux);
+        aux += numero;
         System.out.println("El numero introducido es impar ");
         
       }
